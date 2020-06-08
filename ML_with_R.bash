@@ -11,7 +11,7 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/balazsan/ML_with_R.git
 
 # clean directory
-rmdir work
+#rmdir work
 #rmdir keras-R-bash.bash
 
 # install tensorflow
