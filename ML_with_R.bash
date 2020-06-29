@@ -1,6 +1,7 @@
 ## Script that downloads
 ## some Jupyter notebooks 
 
+# this is always the same, regardless of the user
 cd /home/jovyan
 
 # git reflog requires a name and email if user is not in passwd
