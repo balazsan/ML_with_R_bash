@@ -15,7 +15,7 @@ git clone https://github.com/balazsan/ML_with_R.git
 rmdir work
 
 # image named 'Jupyter R with Keras - 3 GB RAM'
-# was added to CSC's templates, no need to install anything
+# was added to CSC's templates, no need to install keras
 
 # install tensorflow
 #pip --no-cache-dir install tensorflow
@@ -30,3 +30,8 @@ export TAR=/bin/tar
 #R -e 'install.packages("vioplot", repo="http://cran.rstudio.com/")'             # check that installation works
 #R -e 'install.packages("devtools", repo="http://cran.rstudio.com/")'            # get new version
 #R -e 'devtools::install_github("rstudio/keras", upgrade = "always")'            # get lastest keras
+
+# installing Jupyter extensions to enable hmtl export with embedded images
+pip --no-cache-dir install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable export_embedded/main
